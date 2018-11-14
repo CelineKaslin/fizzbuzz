@@ -18,30 +18,39 @@ TDD to check if the program is doing what is expected also built.
 
 ## how to use ##
 
-1. clone the repo.<br/>
-On your local machine go inside of the *fizzbuzz* directory
+1. clone the repo<br/>
+Under the repo name click *clone or download*<br/>
+Click on *use HTTPs*, copy the clone URL of the repo<br/>
+In the terminal go on the working directory where you want the cloned directory to be<br/>
+Use the `git clone` command and paste the clone URL then press enter :
+
+```shell
+$ git clone https://github.com/your-username/your-repositary.git
+```
+
+2. On your local machine go inside of the *fizzbuzz* directory :
 
 ```shell
 $ cd fizzbuzz
 ```
-2. You can see to the *.rb* file where the code of the program is , by going to the *lib* directory
+3. You can see to the *.rb* file where the code of the program is , by going to the *lib* directory and listing what's inside :
 
 ```shell
 $ cd fizzbuzz/lib/
 $ ls
 ```
-3. Once you are in the *lid* directory, you can open the *.rb* file to read and change the code in your text editor or using *vim*
+4. Once you are in the *lid* directory, you can open the *.rb* file to read and change the code in your text editor or using `vim` :
 
 ```shell
 $ vim fizzbuzz.rb
 ```
-Or you can just read the contains of it from the command line
+Or you can just read the contains of it from the command line with `cat` :
 
 ```shell
 $ cat fizzbuzz.rb
 ```
 
-4. Check that the code pass the test by going back to the *fizzbuzz* directory and running the *spec*
+5. Check that the code pass the test by going back to the *fizzbuzz* directory and running the *spec* :
 
 ```shell
 $ cd fizzbuzz
