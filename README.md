@@ -18,7 +18,30 @@ TDD to check if the program is doing what is expected also built.
 
 ## how to use ##
 
-Check that the code pass the test
+1. clone the repo.<br/>
+On your local machine go inside of the *fizzbuzz* directory
+
+```shell
+$ cd fizzbuzz
+```
+2. You can see to the *.rb* file where the code of the program is , by going to the *lib* directory
+
+```shell
+$ cd fizzbuzz/lib/
+$ ls
+```
+3. Once you are in the *lid* directory, you can open the *.rb* file to read and change the code in your text editor or using *vim*
+
+```shell
+$ vim fizzbuzz.rb
+```
+Or you can just read the contains of it from the command line
+
+```shell
+$ cat fizzbuzz.rb
+```
+
+4. Check that the code pass the test by going back to the *fizzbuzz* directory and running the *spec*
 
 ```shell
 $ cd fizzbuzz
